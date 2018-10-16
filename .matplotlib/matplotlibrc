@@ -1,0 +1,3 @@
+# workaround for mac os
+# https://stackoverflow.com/questions/21784641/installation-issue-with-matplotlib-python
+# backend: TkAgg
