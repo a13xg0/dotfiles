@@ -7,7 +7,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'flazz/vim-colorschemes'
-Plug 'iCyMind/NeoSolarized'
+"" Plug 'iCyMind/NeoSolarized'
 Plug 'w0rp/ale'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
@@ -34,8 +34,8 @@ set list
 set listchars=tab:»\ ,extends:›,precedes:‹,nbsp:·,trail:·
 " Postpone redraw on macro execution. It could be very slow otherwise
 set lazyredraw
-set termguicolors
-colorscheme NeoSolarized
+"" set termguicolors
+"" colorscheme NeoSolarized
 let g:neosolarized_contrast = "high"
 let g:neosolarized_bold = 1
 let g:neosolarized_underline = 2
